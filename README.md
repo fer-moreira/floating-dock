@@ -37,6 +37,7 @@ Next use `make` to install the extension into your home directory. A Shell reloa
 
 ```bash
 git clone https://github.com/micheleg/dash-to-dock.git
+cd dash-to-dock
 make
 make install
 ```
