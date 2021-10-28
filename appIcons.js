@@ -926,7 +926,7 @@ function makeAppIcon(app, monitorIndex, iconAnimator) {
  * - Add open windows thumbnails instead of list
  * - update menu when application windows change
  */
-const DockAppIconMenu = class DockAppIconMenu extends AppDisplay.AppIconMenu {
+const DockAppIconMenu = class DockAppIconMenu extends AppDisplay.AppMenu {
 
     constructor(source) {
         let side = Utils.getPosition();
